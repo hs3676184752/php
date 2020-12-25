@@ -13,7 +13,7 @@
     $row=mysqli_fetch_array($result);//每fetch一次抓一筆資料
     echo $row[id]." ".$row[pwd];//回傳
 
-    echo "<br>";#換行
+    echo "<br>";//換行
 
     //數從結果集中取得一行作為關聯數組，或數字數組，或二者都有
     //該函數返回的字段名是區分大小寫的
