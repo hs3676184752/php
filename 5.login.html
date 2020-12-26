@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>login登入範例</title><!--<title>=標題-->
+    </head>
+    <body>
+        <!--method=表單傳送的方式，因為帳號密碼要保密，所以採用POST的方式傳遞資料-->
+        <!--action=表單傳送過去的目的地-->
+        <form method=post action="login.php">          
+            帳號：<input type=text name="id"><br /><!--text=一個單行文本字段，br=跳一行-->
+            密碼：<input type=password name="pwd"><p></p><!--password=一個密碼字段(字顯示為*)--，p=跳一個段落(二行)-->
+            <input type=submit value="登入"><!--作用是送出，值是會顯示在按鈕上的文字value="??"-->
+            <input type=reset value="清除"><!--作用是清除表單上的文字-->
+        </form>
+    </body>
+</html>
